@@ -1,0 +1,58 @@
+button, a, .btn, .nav-item {
+	cursor: pointer;
+}
+
+#content {
+	padding-top: 75px;
+}
+
+.dropdown-item .badge{
+	position: absolute;
+	right: 10px;
+}
+
+.notification {
+	position: absolute;
+	top: 10px;
+	right: 22px;
+	font-size: 7pt!important;
+	color: red;
+}
+
+.alert {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 9999;
+	border-radius: 0
+}
+
+.table-full {
+	padding:  0;
+	width: 100%;
+}
+
+.table-container {
+	width: 120%;
+}
+
+.table-scroll {
+	overflow-x: scroll;
+}
+
+.modal-dialog.modal-success > .modal-content > .modal-header {
+	background-color: #5cb85c!important;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.modal-dialog.modal-danger > .modal-content > .modal-header {
+	background-color: #d9534f!important;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.modal-dialog.modal-success > .modal-content > .modal-header *,
+.modal-dialog.modal-danger > .modal-content > .modal-header * {
+	color: #fff;
+}

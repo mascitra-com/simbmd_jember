@@ -1,0 +1,1 @@
+[31-Jul-2017 19:34:29 Asia/Jakarta] PHP Fatal error:  Call to undefined method Kibb_model::strip_filter() in /home/mascitra/public_html/simbmd/application/controllers/admin/Asset_b.php on line 18
